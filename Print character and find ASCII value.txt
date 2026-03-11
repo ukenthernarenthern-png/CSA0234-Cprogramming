@@ -1,0 +1,10 @@
+
+#include<stdio.h>
+void main()
+{
+char ch='g';
+printf("ch=%c\n",ch);
+printf("ch=%d,hence an integer\n",ch);
+printf("ch1=%c\n,ch+1);
+printf("ch1=%d,hence an integer",ch+1);
+}

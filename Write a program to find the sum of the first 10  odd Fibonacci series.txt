@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+    int a = 0, b = 1, c;
+    int count = 0, sum = 0;
+while(count < 10)
+    {
+        if(a % 2 != 0)
+        {
+            sum = sum + a;
+            count++;
+        }
+        c = a + b;
+        a = b;
+        b = c;
+    }
+printf("Sum of first 10 odd Fibonacci numbers = %d", sum);
+return 0;
+}
