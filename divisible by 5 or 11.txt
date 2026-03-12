@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int a;
+scanf("%d",&a);
+if(a%5||a%11){
+print("divisible");
+}
+else{
+print("not divisible");
+}
+return 0;
+}
