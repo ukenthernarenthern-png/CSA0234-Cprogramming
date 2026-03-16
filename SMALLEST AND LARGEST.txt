@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main()
+{
+    int n, digit, smallest, largest;
+
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    // Initialize smallest and largest with last digit
+    digit = n % 10;
+    smallest = digit;
+    largest = digit;
+
+    n = n / 10;
+
+    while(n > 0)
+    {
+        digit = n % 10;
+
+        if(digit < smallest)
+            smallest = digit;
+        if(digit > largest)
+            largest = digit;
+
+        n = n / 10;
+    }
+
+    printf("Smallest: %d, Largest: %d", smallest, largest);
+
+    return 0;
+}

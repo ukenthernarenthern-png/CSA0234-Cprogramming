@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int x = 50;
+
+    printf("Value of x before decrement: %d\n", x);
+
+    x -= 15;
+
+    printf("Value of x after decrement: %d\n", x);
+
+    return 0;
+}

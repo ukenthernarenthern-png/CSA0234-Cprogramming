@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int num, pos, result;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    printf("Enter bit position to toggle: ");
+    scanf("%d", &pos);
+
+    result = num ^ (1 << pos);
+
+    printf("Number after toggling bit = %d", result);
+
+    return 0;
+}

@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int b = 20;
+
+    printf("Value of b before decrement: %d\n", b);
+
+    --b;   
+
+    printf("Value of b after decrement: %d", b);
+
+    return 0;
+}
